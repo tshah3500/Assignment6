@@ -1,0 +1,6 @@
+cat
+college
+unknown
+love
+science
+food
