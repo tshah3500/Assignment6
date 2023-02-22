@@ -7,10 +7,6 @@ geometry: margin=1in
 urlcolor: cyan
 ---
 
-You may work alone or in a pair. If you work in a pair, both students must submit the file on Canvas to get credit. Additionally, please put both students' NetIDs at the top of the file as a comment so that there's no academic integrity issues. For example: 
-```python
-# aaa0000, zzz9999
-```
 
 The purpose of this assignment is to apply what you've learned about supervised Machine Learning and practice using python dictionaries and the pickle library.
 
@@ -61,7 +57,7 @@ To train your system, you will be using data from a corpus of movie and product 
 
 We will only be training using reviews that had either one or five stars, where the reviews with one star are the "negative" training data and the reviews with five stars are the "positive" training data.
 
-Two provided functions `load_file` and `tokenize` will be helpful here. Familiarize yourself with these functions by using them at the python interpreter to read reviews from the training data files. Take a moment to explore the code provided in the `a6.py` file so that you don't create extra work for yourself. If you would like to edit the provided code, please ask on Piazza first to make sure it won't affect grading.
+Two provided functions `load_file` and `tokenize` will be helpful here. Familiarize yourself with these functions by using them at the python interpreter to read reviews from the training data files. Take a moment to explore the code provided in the `a6.py` file so that you don't create extra work for yourself. If you would like to edit the provided code, please ask first.
 
 ## Part 2: Train the System
 
