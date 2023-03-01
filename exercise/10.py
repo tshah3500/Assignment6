@@ -26,10 +26,22 @@ def load(filename: str) -> Dict:
 # This should be 1 line of code that starts with...
 # spa_eng_dict = ???
 
+spa_eng_dict = load("spanish_to_english.dat")
+
+
 assert spa_eng_dict["gato"] == "cat"
 assert spa_eng_dict["perro"] == "dog"
 
 words = ["gato", "universidad", "pitón", "amor", "ciencias", "comida"]
+with open('translation.txt', 'w') as f:
+  for eng in words:
+      if eng in spa_eng_dict.keys():
+        f.write(spa_eng_dict[eng])
+      else:
+        f.write('unkwown')
+      f.write('\n')
+  f.close()
+
 # Task 2:
 # Create a file named translation named translation.txt
 # for each line, give the english translation of a spanish word

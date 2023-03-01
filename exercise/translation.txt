@@ -1,0 +1,6 @@
+cat
+college
+unkwown
+love
+science
+food
