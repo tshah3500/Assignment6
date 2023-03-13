@@ -336,4 +336,11 @@ if __name__ == "__main__":
     print(b.classify("I'm not in the mood for Taco Bell"))
     print(b.classify("This buritto honestly isn't too hot"))
     print(b.classify("Chicken Noodle Soup is the worst"))
+
+    print("\nNegative Reviews")
+    print(b.classify("Awful movie. The plot sucked and had awful pacing humour, and dialogue were subpar"))
+    print(b.classify("This movie was terrible.  A failed attempted at the multiverse .  A horrible peter parker with no common sense let alone spider sense. "))
+    print("\nPostitive Reviews")
+    print(b.classify("Aw man. This movie is intense but one of the best. I cried, HARD, I laughed, I smiled, I got tense. I am so mad but love it so much."))
+    print(b.classify("absolute amazing movie i had such a blast the theater was very hyped."))    
     pass
